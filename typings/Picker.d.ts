@@ -2,11 +2,12 @@ import * as React from 'react';
 import type {
   TextStyle,
   StyleProp,
-  ViewProps,
   NativeSyntheticEvent,
   TargetedEvent,
   ColorValue,
 } from 'react-native';
+import type {ViewPropTypes as ViewProps} from 'deprecated-react-native-prop-types';
+
 import { processColor } from 'react-native';
 
 export type ItemValue = number | string;

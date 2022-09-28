@@ -1,5 +1,6 @@
 import * as React from 'react';
-import {TextStyle, StyleProp, ViewProps} from 'react-native';
+import {TextStyle, StyleProp} from 'react-native';
+import type {ViewPropTypes as ViewProps} from 'deprecated-react-native-prop-types';
 import {ItemValue} from './Picker';
 
 export interface PickerIOSItemProps {

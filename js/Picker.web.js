@@ -8,7 +8,7 @@
 import * as React from 'react';
 import {unstable_createElement} from 'react-native-web';
 import {forwardRef} from 'react';
-import type {ViewProps} from 'react-native-web/src/exports/View/types';
+import type {ViewPropTypes as ViewProps} from 'deprecated-react-native-prop-types';
 import type {GenericStyleProp} from 'react-native-web/src/types';
 import type {TextStyle} from 'react-native-web/src/exports/Text/types';
 import PickerItem from './PickerItem';
